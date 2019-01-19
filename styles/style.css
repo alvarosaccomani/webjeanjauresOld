@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FFFF99;
+}
+
+#header {
+    text-align: center;
+}
+
+#year {
+    border: 1px solid red;
+}
+
+#content {
+    display: flex;
+}
+
+#left {
+    width: 30%;
+    margin: 0 0 0 10%;
+}
+
+#rigth {
+    width: 70%;
+    margin: 0 10% 0 0;
+}
