@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,9 +23,74 @@ body {
 #left {
     width: 30%;
     margin: 0 0 0 10%;
+    text-align: center;
+    padding: 10px;
 }
 
-#rigth {
+#menu > ul {
+    text-align: center;
+}
+
+#menu > ul > li {
+    list-style: none;
+    padding: 10px;
+    margin: 3px;
+    width: 70%;
+    background: green;
+    color: yellow;
+}
+
+#biografia > img {
+    margin: auto;
+    width:140px;
+    height:187px;
+}
+
+#right {
     width: 70%;
     margin: 0 10% 0 0;
+}
+
+#right {
+    padding-left: 10px;
+}
+
+#footer {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#footer-menu {
+    text-align: center;
+}
+
+#copy-menu {
+    text-align: center;
+    font-size: small;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.separador-10 {
+    height: 10px;
+}
+
+strong {
+    color: #336633;
+}
+
+p {
+    text-align: justify;
+}
+
+.item-historia {
+    text-align: justify;
+    padding: 10px;
+    font-size: small;
+}
+
+.item-historia-anio {
+    font-size: large;
+    color: #336633;
+
 }
